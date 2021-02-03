@@ -1,4 +1,4 @@
-# Buidler ethereumjs-vm fork
+# Hardhat's ethereumjs-vm fork
 
 This is a fork of `ethereumjs-vm` compiled with different options.
 

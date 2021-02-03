@@ -124,6 +124,7 @@ export default async function runBlock(this: VM, opts: RunBlockOpts): Promise<Ru
   if (generateStateRoot) {
     block.header.stateRoot = stateRoot
     block.header.bloom = result.bloom.bitvector
+    block.header.receiptTrie = result.receiptRoot
   } else {
     if (
       result.receiptRoot &&
