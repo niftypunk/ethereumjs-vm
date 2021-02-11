@@ -1,6 +1,6 @@
 {
   "name": "@nomiclabs/ethereumjs-vm",
-  "version": "4.2.1",
+  "version": "4.2.2",
   "description": "An Ethereum VM implementation",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
@@ -57,7 +57,7 @@
     "ethereumjs-util": "^6.2.0",
     "fake-merkle-patricia-tree": "^1.0.1",
     "functional-red-black-tree": "^1.0.1",
-    "merkle-patricia-tree": "^2.3.2",
+    "merkle-patricia-tree": "3.0.0",
     "rustbn.js": "~0.2.0",
     "safe-buffer": "^5.1.1",
     "util.promisify": "^1.0.0"
